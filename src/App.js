@@ -22,7 +22,7 @@ export default function App() {
   } // We've just added a function called handleNext that will update the state variable when the button is clicked. The function will check if the step is less than 3 and if it is, it will update the state variable by adding 1 to the current value.
 
   return (
-    <div>
+    <>
       <button className="close" onClick={() => setIsOpen(!isOpen)}>
         &times;
         {/* // this is the event handler that will call the setIsOpen function when the button is clicked */}
@@ -56,6 +56,6 @@ export default function App() {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
