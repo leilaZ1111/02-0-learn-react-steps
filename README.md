@@ -3,7 +3,7 @@
 - `Repository:` 02-0-learn-react-steps
 - `Type of Challenge:` Learning React
 - `Mode:` Solo learn from an online course on Udemy
-- `Deployment:` [Vercel]()
+- `Deployment:` [Vercel](https://02-0-learn-react-steps.vercel.app/)
 
 ## Description
 
@@ -20,7 +20,6 @@ The project demonstrates the following key concepts of React:
 - Implementing previous and next buttons to navigate between steps.
 - `Conditional rendering` to display components based on a condition (open/close).
 
-<br>
 <br>
 
 <div align="center">
