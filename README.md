@@ -1,1 +1,1 @@
-# Just small project to learn how to State in React
+# Just small project to learn how to use State in React
