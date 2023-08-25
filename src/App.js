@@ -14,16 +14,16 @@ export default function App() {
   const [isOpen, setIsOpen] = useState(true); // now, we will need a piece of code, conditional rendering, to display the steps only when the isOpen variable is true. We will use the ternary operator to do this. The ternary operator is a JavaScript operator that allows us to write a condition and if the condition is true, it will return the first value, if the condition is false, it will return the second value.
 
   function handlePrevious() {
-    if (step > 1) setStep(step - 1);
+    if (step > 1) setStep((s) => s - 1);
   } // We've just added a function called handlePrevious that will update the state variable when the button is clicked. The function will check if the step is greater than 1 and if it is, it will update the state variable by subtracting 1 from the current value.
 
   function handleNext() {
-    if (step < 3) setStep(step + 1);
+    if (step < 3) setStep((s) => s + 1);
   } // We've just added a function called handleNext that will update the state variable when the button is clicked. The function will check if the step is less than 3 and if it is, it will update the state variable by adding 1 to the current value.
 
   return (
     <>
-      <button className="close" onClick={() => setIsOpen(!isOpen)}>
+      <button className="close" onClick={() => setIsOpen((is) => !isOpen)}>
         &times;
         {/* // this is the event handler that will call the setIsOpen function when the button is clicked */}
       </button>
